@@ -56,6 +56,15 @@ De la misma manera procederemos con los municipios, poblaciones, nucleos y codig
 
 Todas las librerias tienen los mismos metodos, por lo tanto cubriremos sus nombres y sus parametros aqui. Asi evitamos duplicar informacion.
 
+Un metodo tiene el mismo nombre que la parte final de cualquier URL usada para hacer una peticion a GeoAPI. Por ejemplo:
+
++----------------------------------------------------------+--------------
+|                         URL                              |    Metodo   |
++==========================================================+=============+
+| http://geoapi.es/API/<b>poblaciones</b>?CPRO=22&CMUM=907 | poblaciones |
++----------------------------------------------------------+-------------+
+
+
 //TODO
 
 ### Tipos de respuesta
