@@ -12,7 +12,7 @@ es `http://apiv1.geoapi.es/` si no se indica algun otro endpoint de manera expli
 una serie de parámetros en cada petición. Dichos parámetros sirven para, por ejemplo, filtrar
 o concretar una busqueda.
 
-Ejemplo dde petición:
+Ejemplo de petición:
 
     http://apiv1.geoapi.es/poblaciones?CPRO=22&CMUM=907&type=JSON&key=&sandbox=1
 
