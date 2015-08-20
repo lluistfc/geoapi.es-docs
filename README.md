@@ -16,7 +16,6 @@ Ejemplo de petición:
 
     http://apiv1.geoapi.es/poblaciones?CPRO=22&CMUM=907&type=JSON&key=&sandbox=1
 
-
 ### Parámetros de configuración
 
 Hay varios parámetros de configuración que indican a la API como debe actuar así como los datos
