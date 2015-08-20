@@ -59,8 +59,8 @@ Todas las librerías tienen los mismos métodos, por lo tanto cubriremos sus nom
 
 Un método tiene el mismo nombre que la parte final (acción) de cualquier URL usada para hacer una petición a GeoAPI, entre el ultimo `/` y justo antes de los parámetros. Por ejemplo:
 
-| URL                                               | Metodo        |
-|:-------------------------------------------------:|:-------------:|
+| URL                                                 | Metodo        |
+|:---------------------------------------------------:|:-------------:|
 | apiv1.geoapi.es/<b>comunidades</b>                  | comunidades() |
 | apiv1.geoapi.es/<b>poblaciones</b>?CPRO=22&CMUM=907 | poblaciones() |
 
@@ -68,8 +68,8 @@ Un método tiene el mismo nombre que la parte final (acción) de cualquier URL u
 
 Todos los parámetros son obligatorios, al menos que se especifique lo contrario.
 
-| Accion       | Parámetros               | Descripcion                     |
-|:------------:|:------------------------:|:--------------------------------|
+| Accion       | Parámetros               | Descripcion                                       |
+|:------------:|:------------------------:|:--------------------------------------------------|
 | calles       | CPRO, CMUM, CUN, CPOS    | Devuelve un listado completo de todas las calles  |
 | comunidades  |                          | Devuelve un listado de todas las comunidades      |
 | cps          | CPRO, CMUM, CUN          | Devuelve un listado de todos los codigos postales |
