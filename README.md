@@ -76,7 +76,7 @@ Todos los parámetros son obligatorios, al menos que se especifique lo contrario
 | municipios   | CPRO                     | Devuelve un listado de todos los municipios       |
 | nucleos      | CPRO, CMUM, NENTSI50     | Devuelve un listado de los nucleos de un municipio. Suele haber, aunque no se limita, 1 nucleo que representa el municipio en si y un nucleo <b>\*DISEMINADO\*</b> que representa areas, caminos, carreteras, fincas, etc mas alejadas del municipio, pero que están dentro de los limites territoriales del municipio e incluso llegan a compartir codigo postal con éste. |
 | poblaciones  | CPRO, CMUM               | Devuelve un listado de todas las poblaciones      |
-| provincias   | CCOM                     | Devuelve un listado de todas las provincias       |
+| provincias   | CCOM                     | Devuelve un listado de una o de todas las provincias. <b>CCOM</b> no es obligatorio. |
 | qcalles      | QUERY                    | Esta es una acción especial que acepta cadenas de texto y realiza busquedas basandose en los nombres de las calles. Es decir, es una busqueda libre para calles. |
 
 ### Tipos de respuesta
