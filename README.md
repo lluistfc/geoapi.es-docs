@@ -5,6 +5,13 @@
 Esta es la documentacion generica para la API de GeoAPI.es. Se recomienda la lectura en
 conjunto con la documentacion especifica de la librería que se desee utilizar.
 
+### Notas
+
+* Todos los datos se envia en `UTF-8`.
+* Existe una limitacion de 1 segundo entre petición y petición en el modo sandbox.
+* Recomendamos utilizar POSTMAN (Extensión de Chrome) para realizar pruebas.
+* Recomendamos utilizar memcached para no malgastar peticicones.
+
 ### Como funciona
 
 El funcionamiento basico de GeoAPI consiste en lanzar peticiones `GET` al endpoint, el cual
@@ -112,8 +119,3 @@ Cubriremos las posibles respuesta en el formato `JSON`, aunque para `XML` son la
 * <b>Errores</b>
 
     Además de los datos anteriores, la API puede embeber otra clave en la respuesta. Esta clave se llama `error` y contiene una cadena de texto con cualquier error que la API decida que debe ser devuelto, como por ejemplo que no quedan peticiones en la API Key que se esta usando.
-
-### Notas
-
-* Todos los datos se envia en `UTF-8`.
-* Existe una limitacion de 1 segundo entre petición y petición en el modo sandbox.
