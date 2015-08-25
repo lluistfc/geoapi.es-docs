@@ -9,8 +9,8 @@ conjunto con la documentacion especifica de la librería que se desee utilizar.
 
 * Todos los datos se envían en `UTF-8`.
 * Existe una limitacion de 1 segundo entre petición y petición en el modo sandbox.
-* Recomendamos utilizar POSTMAN (Extensión de Chrome) para realizar pruebas.
-* Recomendamos utilizar memcached para no malgastar peticicones.
+* Recomendamos utilizar [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) (Extensión de Chrome) para realizar pruebas.
+* Recomendamos utilizar [redis](http://redis.io/) o [memcached](http://memcached.org/) para no malgastar peticiones.
 
 ### Cómo funciona
 
