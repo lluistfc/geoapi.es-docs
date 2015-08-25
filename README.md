@@ -7,7 +7,7 @@ conjunto con la documentacion especifica de la librería que se desee utilizar.
 
 ### Notas
 
-* Todos los datos se envíam en `UTF-8`.
+* Todos los datos se envían en `UTF-8`.
 * Existe una limitacion de 1 segundo entre petición y petición en el modo sandbox.
 * Recomendamos utilizar POSTMAN (Extensión de Chrome) para realizar pruebas.
 * Recomendamos utilizar memcached para no malgastar peticicones.
