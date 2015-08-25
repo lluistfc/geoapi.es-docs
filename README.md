@@ -7,15 +7,15 @@ conjunto con la documentacion especifica de la librería que se desee utilizar.
 
 ### Notas
 
-* Todos los datos se envia en `UTF-8`.
+* Todos los datos se envíam en `UTF-8`.
 * Existe una limitacion de 1 segundo entre petición y petición en el modo sandbox.
 * Recomendamos utilizar POSTMAN (Extensión de Chrome) para realizar pruebas.
 * Recomendamos utilizar memcached para no malgastar peticicones.
 
-### Como funciona
+### Cómo funciona
 
-El funcionamiento basico de GeoAPI consiste en lanzar peticiones `GET` al endpoint, el cual
-es `http://apiv1.geoapi.es/` si no se indica algun otro endpoint de manera explicita, pasando
+El funcionamiento básico de GeoAPI consiste en lanzar peticiones `GET` al endpoint, el cual
+es `http://apiv1.geoapi.es/` si no se indica algun otro endpoint de manera explícita, pasando
 una serie de parámetros en cada petición. Dichos parámetros sirven para, por ejemplo, filtrar
 o concretar una busqueda.
 
