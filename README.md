@@ -43,7 +43,7 @@ Además de los parámetros de configuración, la API permite el uso de varios pa
 |:---------:|:-------------------:|
 | CCOM      | ID de comunidad     |
 | CPRO      | ID de provincia     |
-| CMUM`     | ID de municipio     |
+| CMUM      | ID de municipio     |
 | NENTSI50  | Nombre de poblacion |
 | CUN       | ID de nucleo        |
 | CPOS      | Codigo postal       |
